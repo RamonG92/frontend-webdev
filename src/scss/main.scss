@@ -1,0 +1,15 @@
+// Include all of Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Body
+$body-bg-color: #ececec;
+$body-text-color: #3b3b3b;
+
+body {
+    background-color: $body-bg-color;
+    color: $body-text-color;
+}
+
+.main-content {
+    margin-top: 10px;
+}
