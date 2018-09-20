@@ -5,11 +5,11 @@ export class Layout implements m.Component {
     view(vnode) {
         return (
             <div>
-                <Topbar/>
-                <div className="main-content">
+                <Topbar />
+                <div className='main-content'>
                     {vnode.children}
                 </div>
             </div>
-        )
+        );
     }
 }

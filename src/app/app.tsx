@@ -9,25 +9,25 @@ import { MessageList } from './views/MessageList';
 
 // m.route.prefix("");
 
-m.route(document.body, "/", {
-	"/": {
+m.route(document.body, '/', {
+	'/': {
 		view: () => (
 			<Layout>
-				<MessageList/>
+				<MessageList />
 			</Layout>
-		)
+		),
 	},
-	"/mijn-activiteiten": {
+	'/mijn-activiteiten': {
 		view: (vnode) => (
 			<Layout>
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12">
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-12'>
 							<h3>Under contruction</h3>
 						</div>
 					</div>
 				</div>
 			</Layout>
-		)
-	}
+		),
+	},
 });

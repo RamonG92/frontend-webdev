@@ -1,7 +1,6 @@
 import * as m from 'mithril';
 import MessageModel from '../models/Message';
 import { Message } from '../models/Message';
-import { Table } from './Table';
 
 export class MessageList implements m.Component {
 
@@ -30,7 +29,7 @@ export class MessageList implements m.Component {
                                     <td>{message.title}</td>
                                     <td>{message.text}</td>
                                 </tr>
-                            )
+                            );
                         })}
                     </tbody>
                 </table>

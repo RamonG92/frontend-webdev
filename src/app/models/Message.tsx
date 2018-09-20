@@ -11,14 +11,13 @@ const MessageModel = {
     messageList: [] as Message[],
     fetch() {
         return m.request({
-            method: "GET",
-            url: "http://localhost:3000/message",
+            method:'GET',
+            url: 'http://localhost:3000/message',
             withCredentials: true,
         }).then((result: any) => {
-            console.log(result);
-            MessageModel.messageList = result
+            MessageModel.messageList = result;
         });
-    }
+    },
 };
 
 type MessageModel = typeof MessageModel;
