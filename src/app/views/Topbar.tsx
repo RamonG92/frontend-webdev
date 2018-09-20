@@ -7,9 +7,9 @@ export class Topbar implements m.Component {
                 <a class='navbar-brand' href='/' oncreate={m.route.link}>
                     <img src='../../assets/hva_logo.svg' width='30' height='30' alt='' />
                 </a>
-                <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' 
-                    aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
-                    <span class="navbar-toggler-icon"></span>
+                <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent'
+                aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+                    <span class='navbar-toggler-icon'></span>
                 </button>
 
                 <div class='collapse navbar-collapse' id='navbarSupportedContent'>
