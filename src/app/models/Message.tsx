@@ -11,7 +11,7 @@ const MessageModel = {
     messageList: [] as Message[],
     fetch() {
         return m.request({
-            method:'GET',
+            method: 'GET',
             url: 'http://localhost:3000/message',
             withCredentials: true,
         }).then((result: any) => {
