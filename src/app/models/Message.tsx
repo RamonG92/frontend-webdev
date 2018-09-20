@@ -12,12 +12,11 @@ const MessageModel = {
     fetch() {
         return m.request({
             method: "GET",
-            url: "http://localhost:3000/api",
+            url: "http://localhost:3000/message",
             withCredentials: true,
         }).then((result: any) => {
-            MessageModel.messageList = result.data
-            console.log(result.data);
-            
+            console.log(result);
+            MessageModel.messageList = result
         });
     }
 };
